@@ -1,8 +1,3 @@
-/*    "copy & past only code between lines (//----------//) for getting result"  */
-/*    "use gdb compiler for getting output of whole code"      */
-
-//--------------------------------------------------   start   ----------------------------------------------------------------
-
 class Solution {
     public String smallestNumber(int s, int d) {
         // If the sum s is greater than the maximum possible sum with d digits, return "-1"
@@ -32,13 +27,4 @@ class Solution {
         }
         return ans;
     }
-
-    //-------------------------------------------------------------   end   ------------------------------------------------------
-
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-        System.out.println(sol.smallestNumber(9, 2));  // Output: "18"
-        System.out.println(sol.smallestNumber(20, 3)); // Output: "299"
-        System.out.println(sol.smallestNumber(21, 2)); // Output: "-1"
-    }
-}
+};
