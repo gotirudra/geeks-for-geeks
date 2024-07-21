@@ -1,3 +1,7 @@
+/*    "copy & past only code between lines (//----------//) for getting result"  */
+/*    "use gdb compiler for getting output of whole code"      */
+
+//--------------------------------------------------   start   ----------------------------------------------------------------
 
 class Solution {
     public String smallestNumber(int s, int d) {
@@ -28,6 +32,8 @@ class Solution {
         }
         return ans;
     }
+
+    //-------------------------------------------------------------   end   ------------------------------------------------------
 
     public static void main(String[] args) {
         Solution sol = new Solution();
