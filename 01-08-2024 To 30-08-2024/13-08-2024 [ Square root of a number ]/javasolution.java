@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public long floorSqrt(long n) {
         long s = 0, e = n;
         long ans = 0;
